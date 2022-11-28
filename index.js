@@ -1,6 +1,7 @@
 //Student Grade Generator
 const Grade = (score) => {
     let letterGrade;
+    while (score <=100 && score > 0 ) 
     if (score > 79 ) {
       letterGrade = "A";
     } else if (score >= 60 ) {
@@ -14,7 +15,7 @@ const Grade = (score) => {
   }
     return `You got grade  ${letterGrade}`;
   }
-  console.log(Grade (65));
+  console.log(Grade (65)); // input the student's grade here
   
   
   
@@ -52,7 +53,7 @@ const Grade = (score) => {
       }
       return `Your driving ${caution}`;
     }
-    console.log(car(80));
+    console.log(car(80)); // input speed of the car here 
   
   
   
@@ -65,23 +66,7 @@ const Grade = (score) => {
       let tax;
       let pay;
       if (pay > 1000) {
-          tax = .33;
-      } else if (pay <= 1000) {
-          tax = .28;
-      } else if (pay > 1000) {
-          tax = .25;
-      } else if (pay <= 1000) {
-          tax = .22;
-      } else if (pay > 1000) {
-          tax = .22;
-      } else if (pay <= 1000) {
-          tax = .15;
-      } else if (pay > 1000) {
-          tax = .15;
-      } else if (pay <= 1000) {
-          tax = .10;
-      }
-      let net = pay - (pay * tax);
+          tax = .
       console.log("your paycheck" + net);
   }
   myPay();
