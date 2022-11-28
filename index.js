@@ -59,14 +59,11 @@ const Grade = (score) => {
     //Net Salary Calculator
     function myPay() {
       let name = ("Austin")
-      let rate = parseInt(prompt("15,000"));
-      var hours = parseInt(prompt("How many hours do you work?"));
-      var depend = parseInt(prompt("How many dependents do you claim?"));
+      let rate = 15000;
+      
       // Setting variable here for later use 
       let tax;
       let pay;
-     
-      
       if (pay > 1000) {
           tax = .33;
       } else if (pay <= 1000) {
@@ -85,6 +82,6 @@ const Grade = (score) => {
           tax = .10;
       }
       let net = pay - (pay * tax);
-      document.write("<p> your paycheck </p>" + net);
+      console.log("your paycheck" + net);
   }
   myPay();
