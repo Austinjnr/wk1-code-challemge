@@ -1,0 +1,25 @@
+{
+  "name": "wk1-code-challenge",
+  "version": "1.0.0",
+  "description": "solving toy problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austinjnr/wk1-code-challenge.git"
+  },
+  "keywords": [
+    "if",
+    "elseif",
+    "else"
+  ],
+  "author": "Austin Obonyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austinjnr/wk1-code-challenge/issues"
+  },
+  "homepage": "https://github.com/Austinjnr/wk1-code-challenge#readme"
+}
